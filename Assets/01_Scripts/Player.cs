@@ -24,7 +24,7 @@ public class Player : MonoBehaviour
     public Bullet bulletPrefab;
     public Text lifeText;
     public Image lifeBar;
-
+    /*CAMBIO*/
     void Start()
     {
         Debug.Log("Inició el juego");
