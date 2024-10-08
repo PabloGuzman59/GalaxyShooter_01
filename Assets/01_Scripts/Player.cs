@@ -27,7 +27,7 @@ public class Player : MonoBehaviour
     /*CAMBIO*/
     void Start()
     {
-        Debug.Log("Inició el juego");
+        Debug.Log("Iniciï¿½ el juego");
         currentAmmo = ammo;
         life = maxLife;
         lifeText.text = "Life = " + life;
@@ -141,3 +141,4 @@ public class Player : MonoBehaviour
         shield = false;
     }
 }
+//123
