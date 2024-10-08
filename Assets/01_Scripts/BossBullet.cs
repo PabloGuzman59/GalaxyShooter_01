@@ -11,7 +11,7 @@ public class BossBullet : MonoBehaviour
     {
         transform.Translate(Vector2.down * speed * Time.deltaTime);
     }
-
+       /*ANETT - CAMBIO*/
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
